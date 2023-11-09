@@ -41,10 +41,10 @@ export function SideMenu({ menuIsOpen, onCloseMenu }) {
       </Nav>
 
       <Footer>
-        <img src="https://github.com/rodrigorgtic.png" alt="Foto do usuário" />
+        <img src="https://github.com/CarlosLonghi.png" alt="Foto do usuário" />
         <div>
-          <strong>Rodrigo Gonçalves</strong>
-          <small>rodrigo@email.com</small>
+          <strong>Carlos Longhi</strong>
+          <small>carloslonghi.cl@gmail.com</small>
         </div>
 
         <Button type="button">
