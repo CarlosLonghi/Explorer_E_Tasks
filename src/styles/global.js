@@ -22,6 +22,11 @@ export default createGlobalStyle`
     color: ${({ theme }) => theme.COLORS.GRAY_100};
 
     -webkit-font-smoothing: antialiased;
+
+    @media (max-width: ${DEVICE_BREAKPOINTS.MD}) {
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
   }
 
   body, input, button, textarea {
